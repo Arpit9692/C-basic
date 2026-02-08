@@ -8,4 +8,7 @@ int main(){
     int y=x++ + x++ + --x;
     cout<<y;
     return 0;
+    int z=++x + x++ + --x;
+    cout<<z;
+    return 0;
 }
