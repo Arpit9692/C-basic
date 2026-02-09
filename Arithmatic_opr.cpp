@@ -11,4 +11,6 @@ int main(){
     int z=++x + x++ + --x;
     cout<<z;
     return 0;
+    int c=a++ + ++a + a-- + --a;
+    cout<<c;
 }
