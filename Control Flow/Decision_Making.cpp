@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-int num =10;
+int num = -11;
 if (num > 0){
 cout << "Positive number" << endl;
 }
@@ -11,7 +11,7 @@ cout << "Even number" << endl;
 else
 cout << "Odd number" << endl;
 //if-else-if statement
-int marks = 85;
+int marks = 95;
 if (marks >= 90)
 cout << "Grade A+" << endl;
 else if (marks >=80)
@@ -33,7 +33,7 @@ if(amount <= balance)
        else
          cout << "Amount must be a multiple of 100" << endl;
     else
-        cout << " Exceeds daily limit" << endl;
+        cout << "Exceeds daily limit" << endl;
 else
     cout << "insufficient balance" << endl;
  
